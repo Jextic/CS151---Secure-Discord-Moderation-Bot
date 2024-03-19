@@ -58,7 +58,10 @@ Users/Members:
 **References:**
 
 [1] “ProBot - Discord Multipurpose bot,” ProBot. https://probot.io/
-[2] “Discord Bot | MEE6,” mee6.xyz. https://mee6.xyz/en/‌
+
+[2] “Discord Bot | MEE6,” mee6.xyz. https://mee6.xyz/en/
+‌
 [3] “Privacy Policy | Discord,” Discord. https://discord.com/privacy/
+
 [4] “Safety Library | Discord,” Discord. https://discord.com/safety-library/
 
