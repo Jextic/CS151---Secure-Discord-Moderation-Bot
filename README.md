@@ -3,19 +3,19 @@ Team Members: Johnny Huynh, James Kim, An Pham
 
 **Problem/Issue:** 
 
-As the uses of Discord bots become more diverse, the integration of these bots raise significant concerns about security and server moderation. While useful for automating tasks and enhancing user experience, Discord bot can be exploited for malicious intentions, such as scams, unauthorized data access to users, and others. The objective of this project is to develop a server moderation Discord bot that addresses these security concerns by implementing security measures in compliance with Discord’s safety guidelines.
+As the uses of Discord bots become more diverse, the integration of these bots raises significant concerns about security and server moderation. While useful for automating tasks and enhancing user experience, Discord bot can be exploited for malicious intentions, such as scams, unauthorized data access to users, and others. The objective of this project is to develop a server moderation Discord bot that addresses these security concerns by implementing security measures in compliance with Discord’s safety guidelines.
 
 **Previous work(s):**
 
-Currently, ProBot and MEE6 are two of the more commonly used Discord moderation bots. Probot is capable of a wide range of moderation functions, including censorship, anti-spamming filter, and automatic responses. It can automatically restrict and handle users that violate the privacy of other users. MEE6, on the other hand, is known for its ability to detect rule violations and apply punishments respectively. While both these bots and others have significantly contributed to the moderation and security capabilities of Discord servers, they have not fully addressed the security concerns relating to user data privacy and protection.
+Currently, ProBot and MEE6 are two of the more commonly used Discord moderation bots. Probot is capable of a wide range of moderation functions, including censorship, anti-spamming filters, and automatic responses. It can automatically restrict and handle users that violate the privacy of other users. MEE6, on the other hand, is known for its ability to detect rule violations and apply punishments respectively. While both these bots and others have significantly contributed to the moderation and security capabilities of Discord servers, they have not fully addressed the security concerns relating to user data privacy and protection.
 
 
 **Assumptions/Environment/Intended Use:**
 
-Will be designed to provide security in various server environments. Such as educational, gaming, and social communities.
-Can be written in Java
-Focus on user privacy, securely handling user data according to Discord’s privacy policies
-Easy to understand so people that are not as familiar with technology are able to easily work with and modify the bot as they please.
+- Will be designed to provide security in various server environments. Such as educational, gaming, and social communities.
+- Can be written in Java
+- Focus on user privacy, securely handling user data according to Discord’s privacy policies
+- Easy to understand so people that are not as familiar with technology are able to easily work with and modify the bot as they please.
 
 
 **Description:**
@@ -33,7 +33,7 @@ Discord Bot Features:
 
 **Functionality:**
 
-Our Discord moderation bot can help secure the server members’ privacies and automatically address and regulate rules. It can help filter words and prevent spam messages to create a more positive environment. Certain messages would be sent to individual server members or punishments would be placed upon the offending user if any rule violations were recorded in the message logs. Additional features can include poll making or fun entertainment features.
+Our Discord moderation bot can help secure the server members’ privacies and automatically address and regulate rules. It can help filter words and prevent spam messages to create a more positive environment. Certain messages would be sent to individual server members or punishments would be placed upon the offending user if any rule violations were recorded in the message logs. Additional features can include poll-making or fun entertainment features.
 
 
 **Operations (list operations for each intended user):**
@@ -41,9 +41,9 @@ Our Discord moderation bot can help secure the server members’ privacies and a
 Server Administrators:
 
 - Setup and configuration of the bot with customized rules.
-- Manage bot’s activities to check if bot is functioning as intended.
+- Manage the bot’s activities to check if the bot is functioning as intended.
 - Receive and respond to scam reports or attempts at unauthorized access.
-- 
+
 Moderators:
 
 - Utilize automation of moderating tasks such as filtering
@@ -57,8 +57,8 @@ Users/Members:
 
 **References:**
 
-[1] “ProBot - Discord Multipurpose bot,” ProBot. https://probot.io/ ‌
-[2] “Discord Bot | MEE6,” mee6.xyz. https://mee6.xyz/en/ ‌
+[1] “ProBot - Discord Multipurpose bot,” ProBot. https://probot.io/
+[2] “Discord Bot | MEE6,” mee6.xyz. https://mee6.xyz/en/‌
 [3] “Privacy Policy | Discord,” Discord. https://discord.com/privacy/
 [4] “Safety Library | Discord,” Discord. https://discord.com/safety-library/
 
