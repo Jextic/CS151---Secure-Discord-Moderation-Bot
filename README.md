@@ -1,4 +1,4 @@
-CS151 Project Group #4 
+CS151 Project Group #8 
 Team Members: Johnny Huynh, James Kim, An Pham
 
 **Problem/Issue:** 
