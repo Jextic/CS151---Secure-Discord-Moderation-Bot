@@ -25,9 +25,6 @@ We plan on replicating Discord’s interface including friends, discord channels
 
 Discord Bot Features:
 - Content moderation using text filters and keyword detection
-- User verification to prevent unauthorized access
-- Automated detection and response to scams
-- Privacy protection measures
 - Data encryption and secure handling of user information
 
 
