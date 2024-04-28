@@ -3,7 +3,7 @@ package edu.sjsu.cs;
 import org.apache.commons.cli.*;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main (String[] args) {
         Options options = new Options();
 
         options.addOption(new Option("h", "help", false, "Displays this help menu."));
