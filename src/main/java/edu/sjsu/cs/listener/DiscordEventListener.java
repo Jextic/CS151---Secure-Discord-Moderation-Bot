@@ -13,16 +13,20 @@ import edu.sjsu.cs.ModeratorBot;
 public class DiscordEventListener extends ListenerAdapter {
     public ModeratorBot bot;
 
+    // DiscordEventListener allows the bot to listen to events and messages sent to the bot
     public DiscordEventListener(ModeratorBot bot) {
         this.bot = bot;
     }
 
+    // Loads all guilds to prevent errors
     @Override
     public void onReady(@NotNull ReadyEvent event) {
         registerCommands(bot.getShardManager());
     }
 
+    // Registers all slash commands to the bot
     private void registerCommands(ShardManager jda) {
+        // Allows only this server to register the commands
         Guild guild = jda.getGuildById("1234228780260917300");
         if (guild != null) {
             CommandListUpdateAction commands = guild.updateCommands();
@@ -31,12 +35,13 @@ public class DiscordEventListener extends ListenerAdapter {
         }
     }
 
+    // Initiates events according to slash commands the bot receives
     @Override
     public void onSlashCommandInteraction(SlashCommandInteractionEvent event) {
-        if (event.getName().equals("hello")) { // Is the command name "hello"?
-            event.reply("Hello " + event.getUser().getAsMention() + "!") // What will we reply with?
-                    .setEphemeral(true) // Do we want the message hidden so only the user who ran the command can see it?
-                    .queue(); // Queue the reply.
+        if (event.getName().equals("hello")) {
+            event.reply("Hello " + event.getUser().getAsMention() + "!")
+                    .setEphemeral(true) // Only the user can see the message
+                    .queue();
         }
     }
 }
