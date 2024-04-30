@@ -19,9 +19,9 @@ import java.util.HashMap;
 
 public class DiscordEventListener extends ListenerAdapter {
     public ModeratorBot bot;
-    private HashMap<String, Long> cooldowns;
+    private final HashMap<String, Long> cooldowns;
     private double cooldownPeriod;
-    private String[] blacklistedWords = {
+    private final String[] blacklistedWords = {
             "ugly",
             "stupid",
             "idiot",
