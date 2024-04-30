@@ -1,6 +1,7 @@
 package edu.sjsu.cs;
 
 import edu.sjsu.cs.listener.DiscordEventListener;
+import net.dv8tion.jda.api.requests.GatewayIntent;
 import net.dv8tion.jda.api.sharding.DefaultShardManagerBuilder;
 import net.dv8tion.jda.api.sharding.ShardManager;
 import javax.security.auth.login.LoginException;
@@ -26,6 +27,7 @@ public class ModeratorBot {
         DefaultShardManagerBuilder builder =
                 DefaultShardManagerBuilder.createDefault(token)
                         .addEventListeners(new DiscordEventListener(this));
+        builder.enableIntents(GatewayIntent.MESSAGE_CONTENT);
 
         return builder.build();
     }
