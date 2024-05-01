@@ -14,23 +14,22 @@ Currently, ProBot and MEE6 are two of the more commonly used Discord moderation 
 
 - Will be designed to provide security in various server environments. Such as educational, gaming, and social communities.
 - Can be written in Java
-- Focus on user privacy, securely handling user data according to Discord’s privacy policies
-- Easy to understand so people that are not as familiar with technology are able to easily work with and modify the bot as they please.
+- Used to help moderate servers with simple commands
 
 
 **Description:**
 
 A Discord bot is a customizable bot that can be used to help enhance Discord servers. Discord bots can keep track of every user’s messages and perform actions through commands or general messages. This particular project will focus on Discord moderation bots and how they regulate Discord servers.
-We plan on replicating Discord’s interface including friends, discord channels, direct messages, profile statuses, profile information, etc. After analyzing previous Discord bots and how they are implemented, we will use that information to create our own Discord bot that would act similarly to a Discord moderation bot if it were to be applied to the official Discord app. 
+We plan on creating a Discord bot and using the Java Discord API (JDA) to achieve this. After analyzing previous Discord bots and how they are implemented, we will use that information to create our own Discord bot that would act similarly to a Discord moderation bot if it were to be applied to the official Discord app. 
 
 Discord Bot Features:
 - Content moderation using text filters and keyword detection
-- Data encryption and secure handling of user information
+- Simple commands to warn issue timeouts to server members
 
 
 **Functionality:**
 
-Our Discord moderation bot can help secure the server members’ privacies and automatically address and regulate rules. It can help filter words and prevent spam messages to create a more positive environment. Certain messages would be sent to individual server members or punishments would be placed upon the offending user if any rule violations were recorded in the message logs. Additional features can include poll-making or fun entertainment features.
+Our Discord moderation bot can help secure the server members’ privacies and automatically address and regulate rules. It can help filter words and prevent spam messages to create a more positive environment. Certain messages would be sent to individual server members or punishments would be placed upon the offending user if any rule violations were sent. 
 
 
 **Operations (list operations for each intended user):**
