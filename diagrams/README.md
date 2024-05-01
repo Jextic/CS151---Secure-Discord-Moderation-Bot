@@ -1,8 +1,8 @@
 Links to Images:
-- [Class Diagram (Image)](https://github.com/Jextic/CS151---Secure-Discord-Moderation-Bot/main/diagrams/class-diagram.pdf)
-- [Case Diagram (Image)](https://github.com/Jextic/CS151---Secure-Discord-Moderation-Bot/diagrams/case_diagram.pdf)
-- [State Diagram (Image)](https://github.com/Jextic/CS151---Secure-Discord-Moderation-Bot/main/diagrams/state-diagram.pdf)
-- [Sequence Diagram (Image)](https://github.com/Jextic/CS151---Secure-Discord-Moderation-Bot/main/diagrams/sequence-diagram.pdf)
+- [Class Diagram (Image)](https://github.com/Jextic/CS151---Secure-Discord-Moderation-Bot/blob/main/diagrams/class-diagram.pdf)
+- [Case Diagram (Image)](https://github.com/Jextic/CS151---Secure-Discord-Moderation-Bot/blob/main/diagrams/case_diagram.pdf)
+- [State Diagram (Image)](https://github.com/Jextic/CS151---Secure-Discord-Moderation-Bot/blob/main/diagrams/state-diagram.pdf)
+- [Sequence Diagram (Image)](https://github.com/Jextic/CS151---Secure-Discord-Moderation-Bot/blob/main/diagrams/sequence-diagram.pdf)
 
 Diagram Links:
 
