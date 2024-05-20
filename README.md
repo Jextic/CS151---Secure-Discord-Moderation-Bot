@@ -18,11 +18,11 @@ An Pham
 
 ### - Project Implementation Contributions:
 
-  All team members played a vital role in the implementation of the Discord bot. Creating a discord bot requires only a single user to register a bot to their account, create a discord token (which is private and should not be shared publicly), and use the terminal console to keep the bot running. Johnny Huynh was the main programmer and driver for Discord bot testing with the remaining team members assisting with feature suggestions and error troubleshooting.
+  All team members played a vital role in the implementation of the Discord bot. Creating a discord bot requires only a single user to register a bot to their account, create a discord token (which is private and should not be shared publicly), and use the terminal console to keep the bot running. Johnny Huynh was the main programmer and driver for Discord bot testing with the remaining team members assisting with feature suggestions and error troubleshooting. An Pham assisted Johnny with some programming as he had prior knowledge of working with Discord bots.
 
 ### - Project Presentation Contributions
 
-  All team members had their own section of the project to present and share with their class. Each section was roughly the same length so it would be fair during presentations. Credits to An Pham for creating the slides and planning out how the presentations will go.
+  All team members had their own section of the project to present and share with their class. Each section was roughly the same length so it would be fair during presentations. Credits to An Pham for creating the slides and planning out how the presentations will go. 
 
 
 
